@@ -1,0 +1,35 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Atami-Display-Bold.ttf' fantasy;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.home-text {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #99C6C0;
+}
+
+.deep {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.sobre-mi {
+  font-size: 12px;
+}
+
+.formato {
+  font-size: 10px
+}
