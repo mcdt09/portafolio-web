@@ -17,9 +17,6 @@ p {
   text-align: center;
 }
 
-.navbar {
-  background-color: #99C6C0;
-}
 
 .deep {
   font-weight: bold;
@@ -36,7 +33,7 @@ p {
 
 .hero-image {
   background-image:  url("../images/edit.png");
-  height: 100%;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -68,4 +65,12 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.space {
+  padding: 60px 0px;
+}
+
+nav{
+  background-color: #99C6C0;
 }
