@@ -32,7 +32,7 @@ p {
 }
 
 .hero-image {
-  background-image:  url("../images/edit.png");
+  background-image:  url("../images/correct.png");
   height: 600px;
   background-position: center;
   background-repeat: no-repeat;
@@ -71,6 +71,15 @@ p {
   padding: 60px 0px;
 }
 
-nav{
+nav {
   background-color: #99C6C0;
+}
+
+.padd {
+  margin-left: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 0px 25px;
 }
