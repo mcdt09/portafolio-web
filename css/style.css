@@ -83,3 +83,34 @@ nav {
   text-decoration: none;
   margin: 0px 25px;
 }
+
+footer {
+  background-color: black;
+}
+
+.footer1 {
+  margin: 20px 0px;
+}
+
+.footer2 {
+  margin: 10px 10px;
+}
+
+.organ {
+  margin: 10px 10px;
+  color: white;
+}
+
+.small {
+  font-size: 12px;
+  text-align: center;
+}
+
+.info {
+  color: white;
+  font-size: 12px;
+}
+
+#log {
+  text-decoration: none;
+}
