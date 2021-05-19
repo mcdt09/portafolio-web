@@ -4,9 +4,11 @@ body {
 
 h1 {
   font-family: 'Atami-Display-Bold.ttf' fantasy;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 30px;
+  padding-top: 80px
 }
 
 p {
@@ -17,14 +19,20 @@ p {
   text-align: center;
 }
 
-
 .deep {
   font-weight: bold;
   font-style: italic;
+  text-align: center;
+  font-size: 16px;
 }
 
 .sobre-mi {
   font-size: 12px;
+}
+
+.margin-text {
+  padding: 0px 30px;
+  margin-right: 70px;
 }
 
 .formato {
@@ -82,18 +90,20 @@ nav {
 .nav-link {
   text-decoration: none;
   margin: 0px 25px;
+  color: black;
 }
+
 
 footer {
   background-color: black;
 }
 
 .footer1 {
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 
 .footer2 {
-  margin: 10px 10px;
+  margin: 8px 8px;
 }
 
 .organ {
@@ -101,16 +111,67 @@ footer {
   color: white;
 }
 
-.small {
+.copys {
   font-size: 12px;
   text-align: center;
+  color: white;
+  align-items:
+
 }
 
 .info {
   color: white;
-  font-size: 12px;
+  font-size: 14px;
+  margin: 20px 25px;
 }
 
-#log {
+
+.col-4 {
+  display: inline;
+}
+
+.hh1 {
+  color: white;
+  font-size: 30px;
+}
+
+.editme {
+  margin: 70px 270px;
+  padding: 50px 20px;
+}
+
+.col-4 {
+
+}
+
+.cr {
+  margin-top: 40px;
+}
+
+.wwh {
+  color: white;
   text-decoration: none;
+  padding: 40px;
+  margin: 20px;
+}
+
+.formato {
+  padding: 60px 100px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.input-text {
+  color: white;
+  font-size: 6px;
+  margin-top: 10px;
+}
+
+::placeholder {
+  font-style: italic;
+  font-size: 11px;
+  color: #E50757;
+  font-weight: 700;
 }

@@ -9,7 +9,7 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg navbar fixed-top">
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -18,16 +18,16 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">About me<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#me">About me<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Skills</a>
+        <a class="nav-link" href="#skillzz">Skills</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" href="#porta">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#msg">Contact</a>
       </li>
     </ul>
   </div>
@@ -38,7 +38,7 @@
 
     <main>
 
-      <section class="hero-image">
+      <section class="hero-image" id="homee">
       </section>
       <section class="space">
         <div class="container text-center">
@@ -49,34 +49,38 @@
       </section>
       <!-- Acomodar y revisar -->
 
-      <section class="about-me">
+      <section class="about-me" id="me">
          <section class="hero-image-2">
             <div class="row">
                <div class="col-6">
-                  <img src="images/me2.png" alt="me">
+                  <img src="images/me2.png" alt="me" class="editme">
                </div>
 
                <div class="col-6">
                  <div class="text-about-me">
-                    <h1>Sobre mi...</h1>
+                    <h1>About me...</h1>
                     <div class="sobre-mi">
-                       <p>Nací en el Edo. de México el 23 de junio de 1997.</p>
-                       <p>Aunque apenas a mis 5 años de edad, mi familia y yo nos mudamos a Playa del Carmen y
-                          he aprendido que eso no lo cambiaría por nada del mundo
-                       </p>
-                       <p class="deep">"Playense de vida, chilanga de corazón"</p>
-                       <p>Me encantan las series animadas, los cómics y los videojuegos
-                          de lo cuál siempre trato de inspirarme. También una buena rola de lo-fi siempre ayuda,
-                          aunque no voy a negar mi amor por el rock alternativo, heavy y modern
+                      <div class="margin-text">
+                         <p>Nací en el Edo. de México el 23 de junio de 1997.<br>
+                            Aunque apenas a mis 5 años de edad, mi familia y yo nos mudamos a Playa del Carmen y
+                            he aprendido que eso no lo cambiaría por nada del mundo
+                         </p>
+                         <p class="deep">"Playense de vida, chilanga de corazón"</p>
+                         <p>Me encantan las series animadas, los cómics y los videojuegos
+                            de lo cuál siempre trato de inspirarme. También una buena rola de lo-fi siempre ayuda,
+                            aunque no voy a negar mi amor por el rock alternativo, heavy y modern rock.
+                            Creo en el trabajo duro y que nada en la vida está garantizado.<br>Si quieres algo,
+                            tienes que esforzarte por conseguirlo.
 
-                          Creo en el trabajo duro y que nada en la vida está garantizado. Si quieres algo,
-                          tienes que esforzarte por conseguirlo.
-
-                          Busco siempre seguir aprendiendo de todo lo que haga y al mismo tiempo, siempre que pueda
-                          ayudar a quiénes lo puedan necesitar.
-                       </p>
-                       <!-- Falta agregar más info para que sea un dragger de info -->
-                       <!-- Falta organizar en el espacio de 6 y 6  -->
+                            Busco siempre seguir aprendiendo de todo lo que haga y al mismo tiempo, siempre que pueda
+                            ayudar a quiénes lo puedan necesitar.
+                         </p>
+                         <p>Vengo de una familia de gente verdaderamente luchona y que no se deja vencer facilmente,
+                            y siempre están listos para salir adelante con un pie para la línea de meta.
+                         </p>
+                         <!-- Falta agregar más info para que sea un dragger de info -->
+                         <!-- Falta organizar en el espacio de 6 y 6  -->
+                      </div>
                     </div>
                  </div>
               </div>
@@ -84,9 +88,9 @@
          </section>
       </section>
 
-      <section class="about-me">
+      <section class="about-me" id="skillzz">
          <section class="hero-image-2">
-           <h1>Habilidades</h1>
+           <h1>Skills</h1>
             <div class="row">
                <div class="porcentaje">
                  <div class="progress">
@@ -95,51 +99,73 @@
                  <div class="progress">
                    <div class="progress-bar bg-info" role="progressbar" style="width: 25%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">25%</div>
                  </div>
-                    <!-- Porcentajes  -->
+                    <!-- Porcentajes no se ven -->
                </div>
             </div>
          </section>
       </section>
 
-      <section class="portfolio">
+      <section class="portfolio" id="porta">
+          <section class="hero-image-3">
+            <h1 class="hh1">Portfolio</h1>
+              <table>
+                <tr>
+                  <td>
+                    <div class="col-4">
+                      <img alt="" src="images/woofer.png" height="145px" width="145px">
+                    </div>
+                  </td>
+                  <td>
+                    <div class="col-4">
+                      <img alt="" src="images/xtabay.png" height="145px" width="145px">
+                    </div>
+                  </td>
+                  <td>
+                    <div class="col-4">
+                      <img alt="" src="images/fashion.png" height="145px" width="145px">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="col-4">
+                      <img alt="" src="images/editorial.png" height="145px" width="145px">
+                    </div>
+                  </td>
+                  <td>
+                    <div class="col-4">
+                      <img alt="" src="images/modelado.png" height="145px" width="145px">
+                    </div>
+                  </td>
+                  <td>
+                    <div class="col-4">
+                      <img alt="" src="images/gandhi.png" height="145px" width="145px">
+                    </div>
+                  </td>
+                </tr>
+
+
+              </table>
+           </section>
+        </section>
+
+      <section class="contact" id="msg">
          <section class="hero-image-3">
-            <img src="images/edit-4.png" alt="">
-            <div class="">
-              <!-- Crear espacio de cols -->
-
-
-
-            </div>
-         </section>
-      </section>
-
-      <section class="contact">
-         <section class="hero-image-3">
-            <img src="images/edit-4.png" alt="">
-            <div class="row">
-               <div class="col-6">
+           <h1 class="hh1">Contact me!</h1>
+            <div class="col-6">
                   <div class="formato">
                      <form>
-                        <label for="fname">E-mail</label><br>
-                        <input type="text" id="mail" name="mail"><br>
-                        <label for="lname">Asunto</label><br>
-                        <input type="text" id="issue" name="issue"><br>
-                        <label for="lname">¿Qué te gustaría decirme?</label><br>
-                        <input type="text" id="mensaje" name="mensaje">
+                        <label class="input-text" for="fname"></label><br>
+                        <input type="text" style="width:400px" id="mail" name="mail" placeholder="E-mail"><br>
+                        <label class="input-text" for="lname"></label><br>
+                        <input type="text" style="width:400px" id="issue" name="issue" placeholder="Topic"><br>
+                        <label class="input-text" for="lname"></label><br>
+                        <input type="text" style="height: 200px; width:400px;" id="mensaje" name="mensaje" placeholder="¿Qué te gustaría decirme?">
                         <button type="button" class="btn btn-light">Send</button>
                      </form>
-
                   </div>
-                  <!-- Mensaje  -->
-               </div>
-               <div class="col-6">
-                  <div class="redes">
+             </div>
 
-                  </div>
-                  <!-- Redes  -->
-               </div>
-               <!-- Falta organizar en el espacio de 6 y 6  -->
-            </div>
          </section>
       </section>
 
@@ -150,35 +176,37 @@
         <div class="row">
            <div class="col-4">
               <div class="info">
-                <tr>
-                  <td>c.delgado.trj@gmail.com</td>
-                  <hr>
-                  <td>Rtno. Akab, Bugambilias D-102<br> Playacar Fase II, C.P. 77717 <br> 984 233 1234</td>
-                </tr>
+                <table class="mapa">
+                  <tr>
+                    <td><a class="wwh" href="../archive/CV_2020.pdf" download="CVitae">CV</a></td>
+                    <!-- Quitar text decoration  -->
+                    <td><a class="wwh" href="../archive/Portfolio_2021.pdf" download="Porti">Portfolio</a></td>
+                  </tr>
+                  <br>
+                  <tr>
+                    <td><a class="wwh" href="#me">About me</a></td>
+                    <td><a class="wwh" href="#homee">Home</a></td>
+                  </tr>
+                </table>
               </div>
            </div>
 
            <div class="col-4">
-              <div class="links">
-                <table class="organ">
-                  <tr>
-                    <td><a href="">CV</a></td>
-                    <!-- Falta link de referencia dentro la pagina y quitar text decoration  -->
-                    <td><a href="">Portfolio</a></td>
-                  </tr>
-                  <hr>
-                  <tr>
-                    <td><a href="">About me</a></td>
-                    <td><a href="">Contact</a></td>
-                  </tr>
-                  <hr>
-                  <tr>
-                    <td class="small">mac diseño e ilustración © 2021 All rights reserved</td>
-                  </tr>
+             <table>
+               <tr>
+                 <td>
+                   <img class="cr" src="images/linea.png" alt="linepink" width="300px">
+                 </td>
+               </tr>
+               <tr>
+                 <td>
+                   <div class="copys">
+                       <p  class="cr">mac diseño e ilustración © 2021 All rights reserved</p>
+                   </div>
+                 </td>
+               </tr>
+             </table>
 
-
-                </table>
-              </div>
            </div>
 
            <div class="col-4">
