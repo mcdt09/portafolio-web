@@ -7,12 +7,21 @@ h1 {
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 30px;
-  padding-top: 80px
+  margin-bottom: 20px;
+  padding-top: 60px
+}
+
+.no-pad {
+  padding: 0px
 }
 
 p {
   font-family: 'Montserrat', sans-serif;
+}
+
+.pink {
+  color: #E50757;
+  margin-bottom: 10px;
 }
 
 .home-text {
@@ -128,6 +137,7 @@ footer {
 
 .col-4 {
   display: inline;
+  align-content: center;
 }
 
 .hh1 {
@@ -174,4 +184,20 @@ footer {
   font-size: 11px;
   color: #E50757;
   font-weight: 700;
+}
+
+.progress-bar {
+  margin: 0px 70px;
+  padding: 0px 0px;
+}
+
+.progress {
+  background: #99C6C0;
+  color: #E50757;
+  margin-bottom: 10px;
+}
+
+.li-text {
+  font-size: 14px;
+  margin: 20px 20px;
 }
