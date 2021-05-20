@@ -11,6 +11,10 @@ h1 {
   padding-top: 60px
 }
 
+.h1-right {
+  text-align: left;
+}
+
 .no-pad {
   padding: 0px
 }
@@ -40,8 +44,8 @@ p {
 }
 
 .margin-text {
-  padding: 0px 30px;
-  margin-right: 70px;
+  padding: 12px 15px;
+
 }
 
 .formato {
@@ -97,22 +101,29 @@ nav {
 }
 
 .nav-link {
-  text-decoration: none;
   margin: 0px 25px;
   color: black;
 }
 
+.nav-link:hover {
+  text-decoration: none;
+  color: #E50757;
+}
+
 
 footer {
-  background-color: black;
+  background-color: #050403;
 }
 
 .footer1 {
-  margin: 10px 0px;
+  margin-bottom: 12px;
+  margin-left: 180px;
+  margin-top: 10px;
 }
 
 .footer2 {
-  margin: 8px 8px;
+  margin: 8px;
+  margin-left: 40px;
 }
 
 .organ {
@@ -124,8 +135,7 @@ footer {
   font-size: 12px;
   text-align: center;
   color: white;
-  align-items:
-
+  margin-left: 40px;
 }
 
 .info {
@@ -134,11 +144,6 @@ footer {
   margin: 20px 25px;
 }
 
-
-.col-4 {
-  display: inline;
-  align-content: center;
-}
 
 .hh1 {
   color: white;
@@ -150,23 +155,27 @@ footer {
   padding: 50px 20px;
 }
 
-.col-4 {
-
-}
 
 .cr {
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-left: 40px
 }
 
 .wwh {
   color: white;
   text-decoration: none;
-  padding: 40px;
-  margin: 20px;
+  padding: 10px 0px;
+  margin: 10px 25px;
+}
+
+.wwh:hover {
+  text-decoration: none;
+  color: #E50757;
 }
 
 .formato {
   padding: 60px 100px;
+  margin-left: 80px
 }
 
 .btn {
@@ -183,7 +192,7 @@ footer {
   font-style: italic;
   font-size: 11px;
   color: #E50757;
-  font-weight: 700;
+  font-weight: normal;
 }
 
 .progress-bar {
@@ -195,9 +204,47 @@ footer {
   background: #99C6C0;
   color: #E50757;
   margin-bottom: 10px;
+  margin-left: 40px;
 }
 
 .li-text {
   font-size: 14px;
   margin: 20px 20px;
+}
+
+.msg-container {
+  height: 400px;
+  width: 500px;
+  padding: 20px 30px;
+  background-color: #99C6C0;
+  border-radius: 8%
+}
+
+.msg-container2 {
+  height: 320px;
+  width: 500px;
+  padding: 20px 30px;
+  background-color: #99C6C0;
+  border-radius: 8%;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.mssj {
+  margin-top: 200px;
+  margin-left: 30px;
+}
+
+.linepink {
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+.linepink2 {
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+
+.blok-pad {
+  margin-bottom: 30px;
 }
